@@ -1,0 +1,14 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <p v-if="seen" style="text-align:center;">{{message}}</p>
+    <button v-on:click="getData" style="display:block; margin: auto;">Ask from localhost</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
